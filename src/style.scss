@@ -1,0 +1,78 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+background: #A9B7B5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+.hover_gold:hover {
+ 
+  border-radius: 10px;
+}
+
+.hover_aqua:hover {
+  
+  border-radius: 10px;
+
+
+}
+
+.hover_black:hover {
+ 
+  border-radius: 10px;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+ .main {
+   position: relative;
+   padding: 0 15px;
+ 
+
+  .MuiCircularProgress-svg {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+}
+ }
+
+ input[type=submit] {
+   outline: none;
+ }
+ 
+ input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+ 
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+ 
+

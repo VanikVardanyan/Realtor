@@ -1,0 +1,73 @@
+.notificationRequest {
+    width: 85%;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.NotificationRequest_btn_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.queryActions_btn {
+    width: 289px;
+    height: 43px;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+
+.apartmentActions_btn {
+    width: 311px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.apartmentsComparison_btn {
+    width: 387px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+@media(max-width: 1156px) {
+    .NotificationRequest_btn_section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .NotificationRequest_btn_section * {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 434px) {
+    .NotificationRequest_btn_section * {
+        width: 290px;
+    }
+    .notificationRequest {
+        width: 90%;
+    }
+    .apartmentsComparison_btn {
+        width: 300px;
+    }
+}

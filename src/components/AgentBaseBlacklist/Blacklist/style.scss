@@ -1,0 +1,58 @@
+.blackList {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 54px 81px 22px 80px;
+
+}
+
+.blackListCategory {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #AFAFAF;
+    width: 72%;
+}
+
+.blackList_title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 65px;
+}
+
+.blackListCategory {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.blackListCategory_name {
+    width: 139px;
+}
+
+.blackListCategory_mail {
+    width: 200px;
+}
+
+.blackListCategory_tell {
+    width: 200px;
+
+}
+
+@media(max-width: 911px) {
+    .blackListCategory {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 747px) {
+    .blackListCategory {
+        display: none;
+    }
+}

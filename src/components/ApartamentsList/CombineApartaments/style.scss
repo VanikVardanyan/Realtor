@@ -1,0 +1,82 @@
+.combineApartaments {
+  width: 85%;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.combineApartamentsButton {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 3px;
+}
+
+.cobmibeApartamentsItem{
+  width: 90%;
+  .apartamentsList {
+    
+    width:  100%;
+    margin: 0;
+    .aprtamentsList_body{
+      padding: 21px 10px 22px 10px;
+    }
+  }
+}
+
+.combine_btn {
+  width: 182px;
+  height: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  background: #CAFF91;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.combine_other_btn {
+  width: 182px;
+  height: 60px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  background: #FF5050;;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  margin-bottom: 5px;
+}
+
+@media(max-width: 1320px) {
+  .combineApartaments{
+    flex-wrap: wrap-reverse;
+  }
+  .cobmibeApartamentsItem{
+    width: 100%;
+    .apartamentsList {
+      
+      width:  100%;
+      margin: 0;
+      .aprtamentsList_body{
+        padding: 21px 10px 22px 10px;
+      }
+    }
+  }
+  .combineApartamentsButton {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

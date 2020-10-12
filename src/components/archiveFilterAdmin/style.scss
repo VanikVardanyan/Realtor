@@ -1,0 +1,228 @@
+.archiveFilterAdmin {
+    max-width: 1400px;
+    width: 100%;
+    margin: 15px auto;
+    min-height: 382px;
+    padding: 29px 66px 49px 73px;
+    background-color: white; 
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.archiveFilterAdmin * {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.archiveFilterAdmin_title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.archiveFilterAdmin_row_top {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.archiveFilterAdmin_row_bottom {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+
+.archiveFilterAdmin_sale_inpSection {
+    width: 385px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.subInputFrom_archive {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.full_screen_archiveFilterAdmin_inp > input {
+    padding-left: 43px;
+}
+
+.archiveFilterAdmin_col_title {
+    margin-bottom: 19px;
+}
+
+.archive_section  input {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.searchFilter_sale_inpSection_border_archive {
+
+    width: 30px;
+    height: 1px;
+    margin: auto;
+    background: #6CC3C7;
+    align-self: center;
+    margin-top: 59px;
+}
+
+
+.archiveFilter_footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    // flex-wrap: wrap;
+}
+
+.archiveFilter_footer_btn_clear {
+    width: 125px;
+    height: 43px;
+    background: #AFAFAF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 38px;
+}
+
+.archiveFilter_footer_btn_search {
+    width: 159px;
+    height: 43px;
+    background: #6CC3C7;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    outline: none;
+    border: none;
+    margin-top: 38px;
+}
+
+.errMesageSaleAdmin{
+    color: red;
+    align-self: flex-end;
+    margin: 0 18px;
+}
+
+
+@media(max-width: 1217px) {
+    .archiveFilterAdmin_row_item  {
+        margin-top: 15px;
+        // margin-bottom: 15px;
+    }
+    .archiveFilterAdmin_checked_section {
+        margin-top: 15px;
+    }
+    .archiveFilterAdmin_sale_inpSection {
+        margin-top: 15px;
+
+    }
+   
+}
+
+@media(max-width: 1071px){
+     .archiveFilterAdmin_col {
+        margin-top: 15px;
+        // margin-bottom: 15px;
+
+    }
+    .archiveFilterAdmin_sale_inpSection {
+        margin-top: 15px;
+
+    }
+   
+}
+
+@media(max-width: 495px) {
+    .archiveFilterAdmin_sale_inpSection {
+        flex-wrap: wrap;
+    }
+
+    .archiveFilterAdmin_sale_inpSection input {
+       margin-bottom: 15px;
+    }
+
+    .searchFilter_sale_inpSection_border_archive {
+        display: none;
+    }
+}
+
+@media(max-width: 425px) {
+   .archiveFilterAdmin {
+    padding: 29px 15px 49px 15px;
+   }
+
+   .multiselect_section {
+       width: 100%;
+   }
+}
+
+@media(max-width: 452px) {
+    .archiveFilter_footer {
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+
+@media(max-width: 399px) {
+    .full_screen_archiveFilterAdmin_dropDown {
+        .MuiFormControl-root {
+            width: 100% !important;
+          
+            & >div {
+              width: 100% !important;
+            }
+          }
+    }
+    .archiveFilterAdmin_row_item {
+        width: 100%;
+    }
+
+    .subInputFrom_relativ {
+        width: 100% ;
+    }
+    .subInputBefore_relativ {
+        width: 100%;
+    }
+
+    .archiveFilterAdmin_sale_inpSection {
+        width: 100% !important;
+    }
+
+    .full_screen_archiveFilterAdmin_inp>input {
+        width: 100% !important;
+    }
+    .archiveFilterAdmin_col {
+        margin-top: 0;
+    }
+
+    .archiveFilterAdmin_row_bottom {
+        margin-top: 0;
+    }
+
+    .response_sm_admin_row_items {
+        margin-top: 0 !important;
+    }
+    .errMesageSaleAdmin {
+        text-align: center;
+        position: relative;
+        bottom: -16px;
+    }
+}

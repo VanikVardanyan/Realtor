@@ -1,0 +1,43 @@
+.aboutAgent {
+    width: 78%;
+    min-height: 785px;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 64px 93px 48px 101px;
+}
+
+.aboutAgent_main_title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 56px;
+}
+
+.aboutAgent_categoryName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutAgent_title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #AFAFAF;
+    margin-bottom: 16px;
+}
+
+.aboutAgent_aboutAgent {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 27px;
+}
+
+.agent_actions_items {
+    max-height: 494px;
+    overflow: auto;
+}

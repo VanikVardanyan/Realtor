@@ -1,0 +1,43 @@
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding-right: 65px;
+    background: white;
+    width: 316px;
+    // min-height: 23px;
+    border: 1px solid #6CC3C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+    padding: 1.5px 4px !important;
+}
+
+.MuiChip-root {
+    height: 22px;
+}
+
+.MuiChip-deleteIcon {
+    width: 14px;
+}
+
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 0;
+}
+
+.MuiAutocomplete-tag {
+    height: 24px !important;
+}
+
+.MuiFormControl-root > div svg {
+    transform: scale(1.5) !important;
+}
+
+@media(max-width: 424px) {
+    .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+        width: 100% !important;
+    }
+
+    .MuiAutocomplete-root .MuiAutocomplete-hasClearIcon .MuiAutocomplete-hasPopupIcon {
+        width: 100%;
+    }
+}

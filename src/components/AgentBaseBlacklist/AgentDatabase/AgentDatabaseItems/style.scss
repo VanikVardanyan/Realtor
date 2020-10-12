@@ -1,0 +1,85 @@
+ .AgentDatabaseItems {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     font-style: normal; 
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 24px;
+     margin: 30px 0px;
+ }
+
+ .AgentDatabaseItems_aboutBtn {
+    width: 221px;
+    height: 43px;
+    background: #6CC3C7;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 5px;
+ }
+
+ .AgentDatabaseItems_deletBtn {
+    width: 159px;
+    height: 43px;
+    background: #AFAFAF;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+ }
+ 
+ .AgentDatabaseItems_btnGroup {
+     width: 400px;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .AgentDatabaseItems_name {
+     width: 139px;
+     overflow: hidden;
+ }
+
+ .AgentDatabaseItems_mail {
+     width: 200px;
+     overflow-x: auto;
+ }
+
+ .AgentDatabaseItems_number {
+     width: 174px;
+     overflow: hidden;
+ }
+
+ @media(max-width: 1174px) {
+    .AgentDatabaseItems_btnGroup{
+        margin-top: 10px;
+    }
+ }
+
+ @media(max-width: 788px) {
+     .AgentDatabaseItems * {
+         margin: 5px;
+     }
+ }
+
+ @media(max-width: 596px) {
+    .AgentDatabaseItems {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .AgentDatabaseItems_btnGroup {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+} 

@@ -1,0 +1,54 @@
+.agentBaseBlacklist {
+    margin: auto;
+    box-sizing: border-box;
+    max-width: 1250px;
+}
+
+.agentBaseBlacklist_btnGroup {
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 3%;
+    flex-wrap: wrap;
+}
+
+.agentBaseBlacklist_agentBtn {
+    width: 163px;
+    height: 43px;
+    background: #E5E5E5;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 14px;
+}
+
+.agentBaseBlacklist_blackListBtn {
+    width: 163px;
+    height: 43px;
+    background: #E5E5E5;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 14px;
+}
+
+
+
+
+@media(max-width: 605px) {
+    .agentBaseBlacklist_btnGroup {
+        justify-content: center;
+    }
+    .agentBaseBlacklist_btnGroup *{
+        margin-bottom: 10px;
+    }
+}

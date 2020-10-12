@@ -1,0 +1,526 @@
+.addFloatForm {
+  width: 85% !important;
+  max-width: 1250px;
+  box-sizing: border-box;
+  min-height: 923px;
+  background-color: white;
+  margin: 28px auto;
+  padding: 30px 72px 46px 72px;
+
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 45px;
+    
+    button{
+      width: 27px;
+      height: 27px;
+      border: none;
+      outline: none;
+      background-color: white;
+    }
+  }
+}
+ 
+.addFloatForm_body-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 27px;
+  align-items: flex-end;
+
+  .addFloatForm_body-col {
+
+    &-title {
+      margin-bottom: 12px;
+      margin-top: 8px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}
+
+.addFloatForm_AddData-container {
+  display: flex;
+  justify-content: space-between;
+
+  .addFloatForm_data-container_btn-all{
+    width: 75px;
+    height: 42px;
+    background-color: white;
+    border: 2px solid #6CC3C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6CC3C7;
+    outline: none;
+  }
+  .addFloatForm_data-container_btn-add{
+    width: 115px;
+    height: 42px;
+    background: #6CC3C7;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  input[type="file"] {
+    display: none;
+  }
+
+}
+ 
+.addFloatForm_data-col{
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: self-end;
+}
+
+.addFloatForm_AddData-container_form{
+  display: flex;
+  flex-wrap: wrap;
+  height: 244px;
+  width: 370px;
+  justify-content: space-between;
+  align-self: flex-start;
+  .addFloatForm_AddData_form_lft_inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .addFloatForm_AddData_form_rgt_inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.addFloatForm_footer {
+  margin-top: 27px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.addFloatForm_footer_addres{
+  margin-bottom: 5px;
+}
+
+.addFloatForm_footer_addres_title{
+  margin-bottom: 15px;
+}
+
+.addFloatForm_footer_coments_title{
+  margin-bottom: 15px;
+}
+
+.addFloatForm_footer_coments_inp {
+  width: 711px;
+  height: 186px;
+  padding: 8px;
+  border: 1px solid #6CC3C7;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  outline: none;
+  resize: none;
+  overflow: auto;
+}
+
+.react-calendar{
+  width: 100%;
+}
+
+.addFloatForm_footer_calendar_title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 13px;
+}
+
+.addFloatForm_footer_calendar_cover {
+  border: 1px solid #6CC3C7;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 31px;
+}
+
+.addFloatForm_footer_addres_inp > input {
+  width: 709px !important;
+}
+
+.react-calendar__month-view__days{
+  height: 153px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  button{
+    background-color: white;
+    border: none;
+  }
+}
+
+.react-calendar__month-view__weekdays__weekday{
+  border: 1px solid #6CC3C7;
+  text-align: center;
+  background: #F4F4F4;
+}
+.react-calendar__month-view__days {
+  border: 1px solid #6CC3C7;
+
+}
+
+.sectionPhoneNumberAdd {
+  max-height: 224px;
+  overflow-y: auto;
+  width: 230px;
+  scrollbar-face-color: red;
+}
+
+.sectionPhoneNumberAdd::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.sectionPhoneNumberAdd::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #BCDB9A 0%, #BCDB9A 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  background: #EEF5E5;
+  /* height: 5px; */
+  box-shadow: inset -2px 4px 13px rgba(0, 0, 0, 0)
+}
+ 
+/* Handle */
+.sectionPhoneNumberAdd ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #BCDB9A 0%, #BCDB9A 100%);
+ border-radius: 10px;
+}
+
+/* Handle on hover */
+.sectionPhoneNumberAdd::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #BCDB9A 0%, #BCDB9A 100%);
+}
+
+
+
+.react-calendar__navigation {
+  button {
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    color: #6CC3C7;
+  }
+}
+.react-calendar__navigation__label__labelText--from{
+  color: black;  
+}
+
+.addFloatForm_calendar_btn{
+  display: flex;
+  justify-content: flex-end;
+
+  button{
+    width: 279px;
+    height: 43px;
+    background: #6CC3C7;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    outline: none;
+    border: none;
+  }
+}
+
+.telPhoneSection {
+  max-height: 163px;
+  overflow: hidden;
+}
+
+.documentItems__content{
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+.documentItems {
+ 
+  margin-top: 32px;
+  
+  white-space: nowrap;
+  display: flex;
+}
+
+.addFloatForm_data-container_btn-add{
+  width: 115px;
+  height: 42px;
+  background: #6CC3C7;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.addNumberDoc {
+  width: 203px;
+  height: 42px;
+  border: 1px solid #6CC3C7;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 10px;
+  outline: none;
+  padding: 13px 8px;
+  padding-left:30px ;
+  color: transparent;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  padding-right: 29px;
+}
+
+.addNumberDocMainNumber {
+  width: 210px;
+  height: 42px;
+  border: 1px solid #6CC3C7;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 10px 0;
+  outline: none;
+  padding: 10px 8px;
+  padding-left:30px;
+  color: black;
+  padding-right: 29px;
+}
+
+.imageDelBtn {
+  // position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 11px;
+  right: 32px;
+  color: red;
+  display: flex;
+  border: none;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.PhoneInputInput {
+  width: 203px;
+  height: 42px;
+  border: 1px solid #6CC3C7;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 13px 8px;
+  padding-left:30px ;
+}
+.PhoneInputCountry {
+  display: none !important;
+}
+.phoneSectonAdd {
+  position: relative;
+}
+
+.startnumber__phone__add {
+  position: absolute;
+  top: 11px;
+  left: 5px;
+}
+
+.startnumber__phone__button {
+  position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 11px;
+    right: 32px;
+    color: red;
+    display: flex;
+    border: none;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.addFloatForm_data-container_btn-all{
+  width: 75px;
+  height: 42px;
+  background-color: white;
+  border: 2px solid #6CC3C7;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6CC3C7;
+  outline: none;
+}
+
+.addFloatForm_AddData-container_number {
+  display: flex;
+  justify-content: space-between;
+}
+
+.errorSectionAddFlat {
+  color: red;
+  margin-top: 15px;
+  text-align: center;
+}
+.errorSectionAddFlat * {
+  margin-bottom: 10px;
+}
+
+.errorSectionAddFlat_title {
+  color: #6CC3C7;
+  margin-bottom: 15px;
+}
+
+
+@media(min-width: 1600px) {
+  .addFloatForm {
+    width: 100% !important;
+    max-width: 1250px;
+  }
+}
+
+@media(max-width: 837px){
+ .addFloatForm_footer_addres_inp >input{
+  width: 500px !important;
+ } 
+ .addFloatForm_footer_coments_inp{
+  width: 500px;
+ }
+ .addFloatForm_body-row{
+   justify-content: space-around;
+ }
+}
+
+@media(max-width:700px){
+
+  .addFloatForm_footer_calendar{
+  margin: auto;
+  text-align: center;
+  margin-top: 12px;
+  }
+}
+
+@media(max-width: 628px){
+  .addFloatForm_footer_addres_coment{
+    width: 100%;
+  }
+  .addFloatForm_footer_addres_inp >input{
+    width: 100% !important;
+   } 
+   .addFloatForm_footer_coments_inp{
+    width: 100%;
+   }
+   .addFloatForm_body-row {
+    justify-content: space-between;
+   }
+   .addFloatForm_AddData-container_form{
+    height: 100%;
+  }
+}
+
+@media(max-width: 624px){
+  .addFloatForm{
+    padding: 30px 20px 46px 11px;
+  }
+
+  .response_full_screen >input{
+    width: 100% !important;
+  }
+}
+
+
+
+
+@media(max-width: 425px) {
+  .addFloatForm {
+    width: 92% !important;
+  }
+  .response_full_screen input {
+    width: 100%;
+  }
+  .responce_inp_sm input {
+    width: 100% !important;
+  }
+
+  .addFloatForm_body-col {
+    width: 100%;
+  }
+  .addingApartaments_dropdown_respove_sm {
+    .MuiFormControl-root {
+      width: 100% !important;
+    
+      & >div {
+        width: 100% !important;
+      }
+    }
+  }
+  .addFloatForm_AddData-container_form .addFloatForm_AddData_form_rgt_inp {
+    width: 100%;
+  }
+  .addFloatForm_AddData_form_lft_inp {
+    width: 100%;
+  }
+  .main {
+    padding: 0;
+  }
+}

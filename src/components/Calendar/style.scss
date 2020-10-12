@@ -1,0 +1,14 @@
+.calendarStyleWH{
+  width: 300px;
+  height: 190px;
+}
+
+@media(max-width: 425px){
+  .calendarStyleWH{
+    width: 100%;
+  }
+}
+
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+  background: #1087ff;
+}

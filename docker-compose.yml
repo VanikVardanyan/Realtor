@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  frontend:
+    image: eban-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes: 
+      - ./src:/app/src
+    stdin_open: true
+    ports:
+      - 3000:3000

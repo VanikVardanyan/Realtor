@@ -1,0 +1,186 @@
+.header__event__right-block_icons_full {
+    display: flex;
+    .header__event__Iperson{
+      margin-bottom: 27px;
+      align-self: flex-end;
+    }
+  .header_icons_block{
+    display: flex;
+    justify-content: space-between;
+  }
+  &_filt_btn{
+    width: 159px;
+    height: 43px;
+    background: #6CC3C7;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    outline: none;
+    border: none;
+  }
+}
+
+.addNumberPerson_id {
+    width: 279px;
+    height: 43px;
+    border: 2px solid #6CC3C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: #8C9483;
+    padding: 0 10px;
+}
+
+.addNumberPerson_id::placeholder {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: #8C9483;
+    text-align: center;
+}
+
+.header__event__right-block_icons_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 290px;
+    flex-wrap: wrap;
+}
+
+.header__event__right-block_icons_left_add_room {
+    width: 280px;
+    height: 43px;
+    background: #BCDB9A;
+    border-radius: 10px;
+    color: #62675D;
+    outline: none;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.header__event__right-block_icons_left_add_number {
+    width: 280px;
+    height: 43px;
+    background-color: white ;
+    border: 2px solid #BCDB9A ;
+    color: #8C9483 ;
+    border-radius: 10px;
+    outline: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.numberInp {
+    width: 279px;
+    height: 43px;
+    border: 2px solid #6CC3C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    padding: 0px 8px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+}
+.numberInp::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: #8C9483;
+    display: flex;
+    text-align: center;
+}
+
+.handleOutBtn {
+    color: black;
+    font-weight: 100 !important;
+    font-size: 24px;
+    line-height: 15px;
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+
+@media(max-width: 895px) {
+    .all_button_header_responce {
+        justify-content: center;
+    }
+
+    .header__event__right-block_icons_full {
+        margin-top: 8px;
+    }
+
+    .header__event__left-block {
+        margin-bottom: 8px;
+    }
+   
+}
+
+@media(max-width: 592px) {
+    .header__title__left {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+    }
+
+    .header__title__right {
+    width: 100%;
+    justify-content: center;
+    }
+}
+
+@media(max-width:498px){
+    .header__event__right-block_icons_full{
+        flex-direction: column;
+    }
+    
+    .header__event__right-block_icons_full .header_icons_block{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 23px;
+    }
+    .header__event__right-block_icons_left{
+        width: 281px;
+    }
+    .header__event__right-block_icons_right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header__event__left-block .left-btn-blue {
+        margin-bottom: 8px !important;
+    }
+
+    .header__event__right-block_icons_left_add_room {
+        margin-bottom: 8px;
+    }
+
+    .header__event__right-block_icons_left_add_number {
+        margin-bottom: 8px;
+    }
+   
+}

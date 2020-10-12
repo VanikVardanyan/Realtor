@@ -1,0 +1,59 @@
+.agentDatabase {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 39px 153px 43px 72px;
+}
+
+.agentDatabase_title {
+    margin-bottom: 80px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.agentDatabaseCategory {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #AFAFAF;
+    display: flex;
+    justify-content: space-between;
+    width: 62%;
+    margin-bottom: 25px;
+} 
+
+.agentDatabaseCategory_name {
+    width: 106px;
+}
+
+.agentDatabaseCategory_mail {
+    width: 200px;
+}
+
+.agentDatabaseCategory_tell {
+    width: 174px;
+}
+
+@media(max-width: 1175px) {
+    .agentDatabaseCategory{
+        width: 100%;
+    }
+}
+
+@media(max-width: 432px) {
+    .agentDatabase {
+    padding: 39px 20px 43px 20px;
+
+    }
+} 
+
+@media(max-width: 787px) {
+    .agentDatabaseCategory {
+        display: none;
+    }
+}

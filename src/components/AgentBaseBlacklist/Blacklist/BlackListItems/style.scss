@@ -1,0 +1,55 @@
+ .BlackListItems {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+     font-style: normal;
+     font-weight: 300;
+     font-size: 20px;
+     line-height: 24px;
+     background-color: white;
+     padding: 10px 10px;
+ }
+
+ .BlackListItems_name {
+    width: 139px;
+    overflow: hidden;
+ }
+
+ .BlackListItems_mail { 
+    width: 200px;
+    overflow: hidden;
+ }
+
+ .BlackListItems_number {
+    width: 200px;
+    overflow: hidden;
+ }
+
+ .BlackListItems_deletBtn {
+    width: 159px;
+    height: 43px;
+    background: #AFAFAF;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-top: 8px;
+ }
+
+ @media(max-width: 768px) {
+   .BlackListItems * {
+      margin: 8px;
+   }
+}
+
+@media(max-width: 600px) {
+   .BlackListItems {
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+   }
+}

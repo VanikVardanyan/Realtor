@@ -1,0 +1,63 @@
+.password_request_wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password_request {
+    width: 550px;
+    background: #FFFFFF;
+    border: 2px solid #6CC3C7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 39px 20px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.password_request_text {
+    width: 510px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.password_request_btn {
+    width: 137px;
+    height: 43px;
+    background: #6CC3C7;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+@media(max-width: 572px){
+    .password_request{
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        height: none;
+        padding: 8px;
+        
+
+    }
+    .password_request_text{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 9px;
+        text-align: center;
+    }
+}

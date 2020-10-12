@@ -1,0 +1,52 @@
+.notification {
+    max-width: 1250px;
+    min-height: 102px;
+    margin: 14px auto;
+    box-sizing: border-box;
+    padding: 19px 52px 19px 18px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.notification_title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #6CC3C7;
+    margin-bottom: 9px;
+}
+
+.notification_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.notification_closeBTN {
+    align-items: flex-start;
+}
+
+.notItemsNotification {
+    min-height: 40px;
+    background: #6CC3C7;
+    color: white;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: none;
+    border-radius: 10px;
+
+}
+
+@media(max-width: 1356px) {
+    .notification {
+        width: 85%;
+    }
+}

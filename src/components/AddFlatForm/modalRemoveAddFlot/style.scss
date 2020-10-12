@@ -1,0 +1,12 @@
+.document__parametrs {
+    min-width: 200px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    button {
+        color: red;
+        padding: 5px;
+    }
+}

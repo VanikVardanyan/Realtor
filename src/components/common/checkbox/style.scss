@@ -1,0 +1,27 @@
+.checkBoxCover {
+
+  input {
+    display: none;
+  }
+
+  label {
+    user-select: none;
+    display: flex;
+    line-height: 29px;
+  }
+
+  &Checkbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+
+    &_check {
+      position: absolute;
+      top: -1px;
+      left: 1px;
+    }
+  }
+}
+

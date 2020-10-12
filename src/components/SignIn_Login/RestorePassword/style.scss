@@ -1,0 +1,118 @@
+.restore_password_section {
+   position: relative;
+   height: 100vh;
+}
+
+.restore_password {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 344px; 
+    background: #FFFFFF;
+    border: 2px solid #6CC3C7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 62px 80px;
+    display: flex;flex-direction: column;
+}
+
+.restore_password_title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 15px;
+    margin-bottom: 32px;
+}
+
+.restore_password_inp {
+    width: 391px;
+    height: 43px;
+    border: 2px solid #AFAFAF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px 0px 9px 15px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 11px;
+}
+
+.help_message {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF0000;
+    margin-bottom: 36px;
+}
+
+.restore_password_btn_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn_go_back{
+    width: 183px;
+    height: 43px;
+    background: #AFAFAF;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn_next {
+    width: 183px;
+    height: 43px;
+    background: #6CC3C7;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+@media(max-width: 566px) {
+    .restore_password{
+        width: 90%;
+        margin: auto;
+        padding: 20px 5px;
+        height: 370px;
+    }
+    .restore_password_inp{
+        width: 100%;
+        font-size: 15px;
+    }
+    .restore_password_title{
+        text-align: center;
+        line-height: 30px;
+    }
+    .help_message{
+        text-align: center;
+        padding: 0 10px;
+    }
+    .restore_password_btn_block{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5px;
+    }
+    .btn_go_back{
+        margin-bottom: 8px;
+    }
+}

@@ -1,0 +1,36 @@
+.MuiFormControl-root {
+  margin: 0!important;
+  width: 200px;
+
+  & > div {
+    width: 200px;
+
+    svg {
+      transform: scale(1.9);
+      right: 8px;
+      top: calc(50% - 11px);
+      path {
+        fill: #6CC3C7;
+      }
+    }
+  }
+}
+ 
+.dopdown_title {
+  margin-bottom: 11px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.WithStyles\(ForwardRef\(InputBase\)\)-input-3 {
+  font-size: 22px !important;
+}
+
+@media (max-width: 400px){
+  .dopdown_title {
+    margin-top: 25px;
+  }
+
+}

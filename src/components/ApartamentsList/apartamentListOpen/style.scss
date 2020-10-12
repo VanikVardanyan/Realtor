@@ -1,0 +1,129 @@
+.apartamentListOpen {
+    padding: 21px 17px 68px 29px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.apartamentListOpen_ivestment {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.apartamentListOpen_title {
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #AFAFAF;
+}
+
+.apartamentListOpen_items_section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.apartamentListOpen_ivestment {
+    margin-bottom: 17px;
+}
+
+.apartamentListOpenTop_textArea {
+    width: 601px;
+    height: 186px;
+    resize: none;
+    border: 1px solid #6CC3C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.apartamentListOpenBottom_textArea {
+    width: 601px;
+    height: 73px;
+    border: 1px solid #6CC3C7;
+    box-sizing: border-box;
+    border-radius: 10px;
+    resize: none;
+}
+
+.apartamentListOpen_contact_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.apartamentListOpen_contact_section_Btn {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.apartamentListOpen_contact_section_Btn button {
+    width: 279px;
+    height: 43px;
+    background: #6CC3C7;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.apartamentListOpen_items_section * {
+    margin-bottom: 17px;
+}
+
+.apartamentListOpen_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.apartamentListOpen_contact_section_Btn {
+    margin-bottom: 70px;
+}
+
+.noDocumentText {
+    margin-bottom: 15px;
+}
+
+.apartamentListOpen_subTitle {
+    margin-bottom: 11px;
+}
+
+@media(max-width: 1247px) {
+.apartamentListOpen_contacts{
+    margin: auto;
+    }
+}
+
+@media(max-width: 834px) {
+.apartamentListOpen_coment_section {
+    width: 100%;
+}
+
+.apartamentListOpenTop_textArea {
+    width: 100%;
+}
+
+.apartamentListOpenBottom_textArea {
+    width: 100%;
+}
+}
+
+@media(max-width: 472px) {
+.apartamentListOpen {
+    padding: 21px 5px 68px 5px;
+}
+
+.apartamentListOpen_contact_section_Btn button {
+    width: 250px;
+}
+}

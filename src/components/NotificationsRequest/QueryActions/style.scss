@@ -1,0 +1,32 @@
+.queryActions {
+    width: 85%;
+    max-width: 1250px;
+    margin: auto;
+    min-height: 102px;
+    padding: 19px 40px 20px 18px;
+    margin-top: 22px;
+    margin-bottom: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    border: 1px solid #6CC3C7;
+}
+
+.queryActions_title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: #6CC3C7;
+    margin-bottom: 9px;
+}
+
+.queryActions_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 8px;
+}

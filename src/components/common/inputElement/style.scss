@@ -1,0 +1,34 @@
+  
+
+  .rootInputContainer_inp {
+      width: 170px;
+      height: 43px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      outline: none;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 22px;
+      line-height: 27px;
+      padding: 5px 10px 5px 10px;
+
+      display: flex;
+    }
+
+    .rootInputContainer_inp::placeholder {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .rootInputContainer_inp::placeholder {
+      outline: none;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 19px;
+      line-height: 27px;
+    }
+
+

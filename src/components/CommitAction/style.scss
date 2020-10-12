@@ -1,0 +1,61 @@
+.commitAction {
+    width: 40%;
+    margin: auto;
+    min-height: 261px;
+    border: 2px solid #6CC3C7;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commitAction_item {
+    width: 325px;
+}
+
+.commitAction_title {
+    font-style: normal;
+    font-weight: 320;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.commitAction_choice_section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.commitAction_noBtn {
+    width: 87px;
+    height: 43px;
+    background: #BCDB9A;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    border: none;
+    outline: none;
+}
+
+.commitAction_yesBtn {
+    width: 87px;
+    height: 43px;
+    background: #FF5050;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    border: none;
+    outline: none;
+}
+
+@media(max-width: 800px) {
+.commitAction{
+    width: 80%;
+}
+}   
